@@ -40,15 +40,17 @@ export default class CustomerDetails extends Component {
           <Panel.Title componentClass="h3">{this.state.customerDetails.data.name}</Panel.Title>
         </Panel.Heading>
         <Panel.Body>
-          <p>Name : {this.state.customerDetails.data.name}</p>
-          <p>Email : {this.state.customerDetails.data.email}</p>
-          <p>Phone : {this.state.customerDetails.data.phone}</p>
-          <p>City : {this.state.customerDetails.data.city}</p>
-          <p>State : {this.state.customerDetails.data.state}</p>
-          <p>Country : {this.state.customerDetails.data.country}</p>
-          <p>Organization : {this.state.customerDetails.data.organization}</p>
-          <p>Job Profile : {this.state.customerDetails.data.jobProfile}</p>
-          <p>Additional Info : {this.state.customerDetails.data.additionalInfo}</p>
+          <p>{this.state.customerDetails.data.name}</p>
+          <p>
+            <a href={`mailto:${this.state.customerDetails.data.email}`}>{this.state.customerDetails.data.email}</a>
+          </p>
+          <p>{this.state.customerDetails.data.phone}</p>
+          <p>{this.state.customerDetails.data.city}</p>
+          <p>{this.state.customerDetails.data.state}</p>
+          <p>{this.state.customerDetails.data.country}</p>
+          <p>{this.state.customerDetails.data.organization}</p>
+          <p>{this.state.customerDetails.data.jobProfile}</p>
+          <p>{this.state.customerDetails.data.additionalInfo}</p>
         </Panel.Body>
       </Panel>
     </div>)
