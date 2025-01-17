@@ -21,18 +21,18 @@ export default class Customers extends Component {
   //Function to get the Customer Data from json
   getCustomerData() {
     axios.get('assets/samplejson/home.json').then(response => {
-      this.setState({customerList: response})
+      this.setState({home: response})
     })
   };
 
   render() {
-    if (!this.state.customerList)
+    if (!this.state.home)
       return (<p>Loading data</p>)
     return (<div className="addmargin">
       <div className="col-md-3">
         {
 
-          this.state.customerList.data.map(customer => <Panel bsStyle="info" key={customer.name} className="centeralign">
+          this.state.home.data.map(customer => <Panel bsStyle="info" key={customer.name} className="centeralign">
             <Panel.Heading>
               <Panel.Title componentClass="h3">{customer.name}</Panel.Title>
             </Panel.Heading>
