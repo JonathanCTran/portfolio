@@ -2,7 +2,7 @@
   "name": "simple-reactjs-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://jonathanctran.github.io/portfolio/home",
+  "homepage": "https://jonathanctran.github.io/portfolio",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.4.1",
