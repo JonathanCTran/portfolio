@@ -31,7 +31,7 @@ class App extends Component {
         </header>
 
     
-        <Route component={Customers} />
+        <Route exact path="" component={Customers} />
 
       </div>
     </Router>
