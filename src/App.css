@@ -35,21 +35,8 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
   z-index: 10; /* Ensure it appears above other elements */
 }
-/* Optional: Add media queries for fine control */
-@media (max-width: 768px) { /* Tablets and smaller screens */
-  .user-image {
-    width: 20vw; /* Slightly larger for smaller screens */
-    right: 3%;
-    top: 15%;
-  }
-}
-@media (max-width: 480px) { /* Mobile devices */
-  .user-image {
-    width: 30vw; /* Even larger for very small screens */
-    right: 2%;
-    top: 10%;
-  }
-}
+
+
 
 
 @keyframes App-logo-spin {
