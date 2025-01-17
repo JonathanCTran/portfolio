@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Customers from './Customers'
-import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 class App extends Component {
@@ -31,12 +31,8 @@ class App extends Component {
         </header>
 
     
-          <Switch>
-                <Route exact path= "/" render={() => (
-                  <Redirect to="/home"/>
-                )}/>
-                 <Route exact path='/home' component={Customers} />
-          </Switch>
+        <Route exact path="/" component={Customers} />
+
       </div>
     </Router>
     );
