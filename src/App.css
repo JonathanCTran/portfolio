@@ -16,10 +16,24 @@
 
 .App-title {
   font-size: 1.75em;
+  text-align: center;
+  padding-left: .5%;
 }
 
 .App-intro {
   font-size: large;
+}
+
+
+.user-image {
+  position: absolute; /* Position relative to the viewport */
+  top: .25%; /* Adjust vertical alignment */
+  left: 7%; /* Adjust horizontal alignment */
+  width: 150px; /* Adjust size */
+  height: 150px; /* Match size */
+  border-radius: 50%; /* Optional: Circular image */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+  z-index: 10; /* Ensure it appears above other elements */
 }
 
 @keyframes App-logo-spin {

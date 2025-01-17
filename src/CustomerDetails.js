@@ -33,8 +33,11 @@ export default class CustomerDetails extends Component {
 
   render() {
     if (!this.state.customerDetails)
+      
       return (<p>Loading Data</p>)
     return (<div className="customerdetails">
+
+
       <Panel bsStyle="info" className="centeralign">
         <Panel.Heading>
           <Panel.Title componentClass="h3">{this.state.customerDetails.data.name}</Panel.Title>
@@ -53,6 +56,8 @@ export default class CustomerDetails extends Component {
           <p>{this.state.customerDetails.data.additionalInfo}</p>
         </Panel.Body>
       </Panel>
+
+      
     </div>)
   }
 }
