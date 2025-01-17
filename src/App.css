@@ -37,6 +37,26 @@
   z-index: 10; /* Ensure it appears above other elements */
 }
 
+/* Media Queries for responsiveness */
+@media (max-width: 768px) { /* Tablet devices */
+  .user-image {
+    width: 25vw; /* Slightly larger for smaller devices */
+    max-width: 120px; /* Adjust the maximum size */
+    top: 15%;
+    left: 4%;
+  }
+}
+
+@media (max-width: 480px) { /* Mobile devices */
+  .user-image {
+    width: 30vw; /* Larger for very small screens */
+    max-width: 100px; /* Further limit the maximum size */
+    top: .25%;
+    left: 3%;
+  }
+}
+
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
