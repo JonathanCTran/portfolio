@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 160px;
   padding: 20px;
   color: white;
 }
@@ -27,16 +27,15 @@
 
 .user-image {
   position: absolute; /* Position relative to the viewport */
-  max-width: 100%;
   top: .25%; /* Adjust vertical alignment */
   left: 7%; /* Adjust horizontal alignment */
-  height: 150px; /* Match size */
+  width: 15vw;
+  max-width: 150px;
+  height: auto; /* Match size */
   border-radius: 50%; /* Optional: Circular image */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
   z-index: 10; /* Ensure it appears above other elements */
 }
-
-
 
 
 @keyframes App-logo-spin {
