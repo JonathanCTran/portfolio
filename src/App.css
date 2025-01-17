@@ -9,15 +9,23 @@
 
 .App-header {
   background-color: #222;
-  height: 160px;
+  height: auto;
+  max-width: 100%;
+  min-width: 240px;
   padding: 20px;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Ensure the title stays centered */
 }
 
 .App-title {
   font-size: 1.75em;
   text-align: center;
   padding-left: .5%;
+  
 }
 
 .App-intro {
