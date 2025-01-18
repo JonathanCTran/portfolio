@@ -54,7 +54,15 @@ export default class CustomerDetails extends Component {
           <p>{this.state.customerDetails.data.country}</p>
           <p>{this.state.customerDetails.data.organization}</p>
           <p>{this.state.customerDetails.data.jobProfile}</p>
-          <p>{this.state.customerDetails.data.additionalInfo}</p>
+
+          {/* Split Additional Info into Paragraphs */}
+          <div className="format-text">
+    <p
+      dangerouslySetInnerHTML={{
+        __html: this.state.customerDetails.data.additionalInfo,
+      }}
+    ></p>
+  </div>
 
           {/* Displaying the profile image */}
 <img

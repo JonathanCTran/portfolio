@@ -56,6 +56,18 @@
 
 }
 
+.format-text {
+  text-align: justify; /* Align text evenly on both sides */
+  margin-top: 10px;   /* Add spacing above the container */
+}
+
+.format-text p {
+  margin-bottom: 10px; /* Add spacing between paragraphs */
+  line-height: 1.6;    /* Increase line height for readability */
+  text-indent: 20px;   /* Indent the first line of each paragraph */
+
+}
+
 
 
 
