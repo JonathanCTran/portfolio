@@ -1,5 +1,7 @@
 {
 	"id": 2,
-	"name": "",
-	"email": "example.com"
+	"title": "Project Demos",
+	"aiTicTacToe": "https://gamescrafters.berkeley.edu/instructions/i/tictactoe/tictactoe.svg",
+	"aiTicTacToeLink": "Ai Turned Based Tic Tac Toe"
+	
 }
