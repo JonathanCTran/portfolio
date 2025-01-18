@@ -1,6 +1,5 @@
 {
 	"id": 1,
-	"picture": "",
-	"additionalInfo": "Hello, my name is Jonathan Tran and welcome to my webpage that I created using react! "
+	"additionalInfo": "<p>I am a recent graduate with a Bachelor of Science degree in Software Engineering from Drexel University, passionate about solving complex problems through innovative technology. With hands-on experience in building scalable web applications and a strong foundation in cloud platforms like AWS, Azure, and GCP, I bring a solution-oriented approach to every project. </p><p>My technical expertise includes managing development pipelines with tools like CircleCI, maintaining robust environments using Kubernetes, and securing infrastructure through advanced network configurations. I thrive in collaborative environments that value creativity, continuous learning, and professional growth. </p><p>Beyond my technical skills, I am driven by a genuine passion for creating user-centric solutions that make an impact. Whether it's optimizing deployment workflows or architecting systems that scale seamlessly, I am eager to contribute to meaningful projects and grow alongside a forward-thinking team."
 }
 
