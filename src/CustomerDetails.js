@@ -40,9 +40,10 @@ export default class CustomerDetails extends Component {
 
       <Panel bsStyle="info" className="centeralign">
         <Panel.Heading>
-          <Panel.Title componentClass="h3">{this.state.customerDetails.data.name}</Panel.Title>
+          <Panel.Title componentClass="h3">{this.state.customerDetails.data.title}</Panel.Title>
         </Panel.Heading>
         <Panel.Body>
+
           <p>{this.state.customerDetails.data.name}</p>
           <p>
             <a href={`mailto:${this.state.customerDetails.data.email}`}>{this.state.customerDetails.data.email}</a>
@@ -54,6 +55,26 @@ export default class CustomerDetails extends Component {
           <p>{this.state.customerDetails.data.organization}</p>
           <p>{this.state.customerDetails.data.jobProfile}</p>
           <p>{this.state.customerDetails.data.additionalInfo}</p>
+
+          {/* Displaying the profile image */}
+<img
+    src={this.state.customerDetails.data.aiTicTacToe} // Assuming 'picture' is a property in the data
+    alt={``}
+    style={{
+      maxWidth: "110px",
+      marginBottom: "10px",
+    }}
+    />
+<p>
+    <a
+      href={"https://jonathanctran.github.io/ai-tic-tac-toe"} // Assuming 'link' is a property in the data
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {this.state.customerDetails.data.aiTicTacToeLink}
+    </a>
+  </p>
+    
         </Panel.Body>
       </Panel>
 
