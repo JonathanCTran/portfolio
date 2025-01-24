@@ -49,7 +49,7 @@ export default class CustomerDetails extends Component {
           <p>{this.state.customerDetails.data.phone}</p>
           <p>{this.state.customerDetails.data.city}</p>
           <p>{this.state.customerDetails.data.state}</p>
-          
+
           <p>
             <a href={`mailto:${this.state.customerDetails.data.email}`}>{this.state.customerDetails.data.email}</a>
           </p>
@@ -139,7 +139,7 @@ export default class CustomerDetails extends Component {
 
 <p>
   <a
-    href={"https://jonathanctran.github.io/ai-tic-tac-toe"}
+    href={"https://jonathanctran.github.io/ai-tic-tac-toe/"}
     target="_blank"
     rel="noopener noreferrer"
   >
