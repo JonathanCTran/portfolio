@@ -1,8 +1,11 @@
 {
 	"id": 3,
-	"name": "Jonathan C Tran",
-	"email": "jonathanctran92@gmail.com",
-	"linkedin": "https://www.linkedin.com/in/jonathanctran/",
-	"resume": "My Resume"
+	"title": "Feel free to contact me for any opportunities, questions, or collaborations!",
+	"name": "Name: Jonathan C Tran",
+	"phone": "Phone: 215-281-8602",	
+	"email": "Email: jonathanctran92@gmail.com",
+	"city": "Location: Philadelphia, Pennsylvania",
+	"linkedIn": "LinkedIn: Connect with me on LinkedIn",
+	"resume": "Resume: View my Resume"
 
 }

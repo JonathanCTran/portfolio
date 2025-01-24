@@ -1,7 +1,13 @@
 {
 	"id": 2,
 	"title": "Project Demos",
+	"memeGenerator": "https://raw.githubusercontent.com/JonathanCTran/portfolio/refs/heads/main/screenshots/MemeGenerator.png",
+	"memeGeneratorLink": "Meme Generation Demo",
+
+	"ipynbLoader": "https://raw.githubusercontent.com/JonathanCTran/portfolio/refs/heads/main/screenshots/interactive%20python%20notebook%20loader.png",
+	"ipynbLoaderLink": "Interactive Python Notebook Loader Demo",
+	
 	"aiTicTacToe": "https://gamescrafters.berkeley.edu/instructions/i/tictactoe/tictactoe.svg",
-	"aiTicTacToeLink": "Ai Turned Based Tic Tac Toe"
+	"aiTicTacToeLink": "Ai Turned Based Tic Tac Toe Demo"
 	
 }
