@@ -45,14 +45,24 @@ export default class CustomerDetails extends Component {
         <Panel.Body>
 
           <p>{this.state.customerDetails.data.name}</p>
+          
+          <p>{this.state.customerDetails.data.phone}</p>
+          <p>{this.state.customerDetails.data.city}</p>
+          <p>{this.state.customerDetails.data.state}</p>
+          
           <p>
             <a href={`mailto:${this.state.customerDetails.data.email}`}>{this.state.customerDetails.data.email}</a>
           </p>
           <p>
-            <a href={this.state.customerDetails.data.linkedin}>{this.state.customerDetails.data.linkedin}</a>
+          <a
+            href="https://www.linkedin.com/in/jonathanctran/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >{this.state.customerDetails.data.linkedIn}
+          </a>
           </p>
-          <p>
 
+          <p>
           <a
             href="https://drive.google.com/file/d/1-2_pNvzUJ2DfILLSO6nSxaknI5kEDOWd/view?usp=drive_link"
             target="_blank"
@@ -61,9 +71,7 @@ export default class CustomerDetails extends Component {
           </a>
           </p>
 
-          <p>{this.state.customerDetails.data.phone}</p>
-          <p>{this.state.customerDetails.data.city}</p>
-          <p>{this.state.customerDetails.data.state}</p>
+          
           <p>{this.state.customerDetails.data.country}</p>
           <p>{this.state.customerDetails.data.organization}</p>
           <p>{this.state.customerDetails.data.jobProfile}</p>
@@ -79,45 +87,67 @@ export default class CustomerDetails extends Component {
 
 
   <img
-    src={this.state.customerDetails.data.memeGenerator} // Assuming 'picture' is a property in the data
-    alt={``}
-    style={{
-      maxWidth: "110px",
-      marginBottom: "10px",
-    }}
-    />
+  src={this.state.customerDetails.data.memeGenerator}
+  alt={``}
+  style={{
+    maxWidth: "200px",
+    marginBottom: "10px",
+  }}
+/>
 
 <p>
-    <a
-      href={"https://jonathanctran.github.io/meme-generator-demo/"} // Assuming 'link' is a property in the data
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {this.state.customerDetails.data.memeGeneratorLink}
-    </a>
-  </p>
+  <a
+    href={"https://jonathanctran.github.io/meme-generator-demo/"}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {this.state.customerDetails.data.memeGeneratorLink}
+  </a>
+</p>
 
-          {/* Displaying the profile image */}
+<hr />
+
 <img
-    src={this.state.customerDetails.data.aiTicTacToe} // Assuming 'picture' is a property in the data
-    alt={``}
-    style={{
-      maxWidth: "110px",
-      marginBottom: "10px",
-    }}
-    />
-
-
+  src={this.state.customerDetails.data.ipynbLoader}
+  alt={``}
+  style={{
+    maxWidth: "300px",
+    marginBottom: "10px",
+  }}
+/>
 
 <p>
-    <a
-      href={"https://jonathanctran.github.io/ai-tic-tac-toe"} // Assuming 'link' is a property in the data
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {this.state.customerDetails.data.aiTicTacToeLink}
-    </a>
-  </p>
+  <a
+    href={"https://jonathanctran.github.io/interactive-python-notebook-loader/"}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {this.state.customerDetails.data.ipynbLoaderLink}
+  </a>
+</p>
+
+<hr />
+
+<img
+  src={this.state.customerDetails.data.aiTicTacToe}
+  alt={``}
+  style={{
+    maxWidth: "200px",
+    marginBottom: "10px",
+  }}
+/>
+
+<p>
+  <a
+    href={"https://jonathanctran.github.io/ai-tic-tac-toe"}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {this.state.customerDetails.data.aiTicTacToeLink}
+  </a>
+</p>
+
+
     
         </Panel.Body>
       </Panel>
