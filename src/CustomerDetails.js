@@ -77,6 +77,26 @@ export default class CustomerDetails extends Component {
     ></p>
   </div>
 
+
+  <img
+    src={this.state.customerDetails.data.memeGenerator} // Assuming 'picture' is a property in the data
+    alt={``}
+    style={{
+      maxWidth: "110px",
+      marginBottom: "10px",
+    }}
+    />
+
+<p>
+    <a
+      href={"https://jonathanctran.github.io/meme-generator-demo/"} // Assuming 'link' is a property in the data
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {this.state.customerDetails.data.memeGeneratorLink}
+    </a>
+  </p>
+
           {/* Displaying the profile image */}
 <img
     src={this.state.customerDetails.data.aiTicTacToe} // Assuming 'picture' is a property in the data
@@ -86,6 +106,9 @@ export default class CustomerDetails extends Component {
       marginBottom: "10px",
     }}
     />
+
+
+
 <p>
     <a
       href={"https://jonathanctran.github.io/ai-tic-tac-toe"} // Assuming 'link' is a property in the data
