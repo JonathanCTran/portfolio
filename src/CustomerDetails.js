@@ -64,7 +64,7 @@ export default class CustomerDetails extends Component {
 
           <p>
           <a
-            href="https://drive.google.com/file/d/1-2_pNvzUJ2DfILLSO6nSxaknI5kEDOWd/view?usp=drive_link"
+            href="https://drive.google.com/file/d/14I2f47A7LOVRE1RS8pBkIRC2Itji6dpe/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             >{this.state.customerDetails.data.resume}
