@@ -24,7 +24,7 @@ class App extends Component {
             rel="noopener noreferrer"
             >
           <img 
-            src="https://media.licdn.com/dms/image/v2/D4E03AQFKq1xAhaRovw/profile-displayphoto-shrink_400_400/B4EZRx_GqlG0Ao-/0/1737079156186?e=1742428800&v=beta&t=2cpI52TQL4oVWl6uPb-qJJ5c1Y-RLA2qUxtFLgdiRrg" 
+            src="https://drive.google.com/file/d/1KnY04mohOtuA_G45_tCL55JDihUYtgiy/view?usp=drive_link" 
             alt="Jonathan Tran's profile" 
             className="user-image" 
           />
