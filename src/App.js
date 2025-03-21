@@ -24,7 +24,7 @@ class App extends Component {
             rel="noopener noreferrer"
             >
           <img 
-            src="https://drive.google.com/file/d/1KnY04mohOtuA_G45_tCL55JDihUYtgiy/view?usp=drive_link" 
+            src="./assets/portrait.jpg" 
             alt="Jonathan Tran's profile" 
             className="user-image" 
           />
