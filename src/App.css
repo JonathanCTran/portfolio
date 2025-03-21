@@ -35,16 +35,19 @@
 
 
 .user-image {
-  position: absolute; /* Position relative to the viewport */
-  top: .25%; /* Adjust vertical alignment */
-  left: 7%; /* Adjust horizontal alignment */
+  position: absolute;
+  top: 0.25%;
+  left: 7%;
   width: 15vw;
   max-width: 160px;
   min-width: 100px;
-  height: auto; /* Match size */
-  border-radius: 50%; /* Optional: Circular image */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
-  z-index: 10; /* Ensure it appears above other elements */
+  height: 15vw; /* Make height equal to width */
+  max-height: 160px;
+  min-height: 100px;
+  object-fit: cover; /* Ensures the image fills the container */
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
 
 
